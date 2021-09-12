@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="person">
+        <div class="header">
+          <img src="images/image-jeremy.png" alt="Picture of Jeremy" />
+          <small>Report for</small>
+          <h1>Jeremy Robson</h1>
+        </div>
+        <div class="body">
+          <form>
+            <input
+              type="radio"
+              id="day"
+              value="daily"
+              name="selection"
+              checked
+            />
+            <label for="day">Daily</label>
+            <input type="radio" id="week" value="weekly" name="selection" />
+            <label for="week">Weekly</label>
+            <input type="radio" id="month" value="monthly" name="selection" />
+            <label for="month">Monthly</label>
+          </form>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Work</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="work"></h2>
+          <small id="prevwork"></small>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Play</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="play"></h2>
+          <small id="prevplay"></small>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Study</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="study"></h2>
+          <small id="prevstudy"></small>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Exercise</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="exercise"></h2>
+          <small id="prevexercise"></small>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Social</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="social"></h2>
+          <small id="prevsocial"></small>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="header"></div>
+        <div class="body">
+          <h3>Self Care</h3>
+          <a href="#"><img src="images/icon-ellipsis.svg" alt="Menu icon" /></a>
+          <h2 id="selfcare"></h2>
+          <small id="prevselfcare"></small>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/ghostwriter7"
+          >ghostwriter7</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
